@@ -2,7 +2,7 @@
 A Java command line bulls and cows game. Allowing player to choose computer opponent level, reading guesses from a file, and saving result to a file.
 
 
-Task One: Design
+Task One: Design<br />
 For this assignment, there is very little which is already given to you. Through this
 assignment, you’ll gain experience in designing and building a complex program from
 scratch. Before starting to code , don’t forget to design your classes and methods (i.e. create
@@ -20,7 +20,7 @@ Note: It’s OK if your implementation doesn’t match your initial design 100% 
 You’ll document this process in Task Eight.
 
 
-Task Two: The Beginning
+Task Two: The Beginning<br />
 Implement the first part of the game allowing the player to guess the computer’s secret code.
 The computer randomly generates the secret code at the beginning of the game, which it
 then lets the player guess. Remember that when generating the computer’s secret code,
@@ -30,7 +30,7 @@ outcome (i.e. whether the player has won the game or not) should be displayed
 appropriately to the console.
 
 
-Task Three: Easy AI
+Task Three: Easy AI<br />
 Modify your code so that the player can now also enter a secret code when the game
 begins, which the computer must guess. Remember to verify that the player has chosen a
 valid secret code. The player and computer each take turns guessing the other’s code. The
@@ -40,7 +40,7 @@ For this task, have the player play against an easy AI. When the AI makes a gues
 simply generate a random (valid) guess.
 
 
-Task Four: Medium AI
+Task Four: Medium AI<br />
 Modify your code so that at the beginning of the game (before the player enters their own
 secret code), they will be asked to select either an easy or medium AI opponent to play
 against.
@@ -49,7 +49,7 @@ same manner as in Task Three. However, if a medium AI is selected, the AI should
 track of guesses it has already made. The AI will not make the same guess twice.
 
 
-Task Five: Hard AI
+Task Five: Hard AI<br />
 Modify your code so that the placer can additionally choose to play against a hard AI
 opponent.
 If the player chooses to play against an easy or medium AI, the game should proceed in
@@ -57,7 +57,7 @@ exactly the same manner as in Task Three or Four. However, if a hard AI is selec
 computer should be much more intelligent when guessing, rather than just choosing at
 random. One possible strategy for implementing the hard AI is given below.
 
-Task Six: Reading Guesses from a File
+Task Six: Reading Guesses from a File<br />
 Modify your code so that before the game begins, the player is asked whether they wish to
 enter their guesses manually, or to automatically guess based on pre-supplied guesses in a
 file.
@@ -73,6 +73,8 @@ guesses should automatically be chosen instead. If there are no more pre-supplie
 (for example, if the player needs to enter their fifth guess but the file only contained four
 guesses), then the player should be prompted as normal.
 
+
+Task Seven: Saving to a File<br />
 Modify your code so that, when the game ends (win, lose, or draw), the player is asked if
 they wish to save the results to a text file. If they do, then they’ll be prompted to enter a
 filename. The game should then save the following information to the given file:

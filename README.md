@@ -1,6 +1,8 @@
 # Bulls-And-Cows
 A Java command line bulls and cows game. Allowing player to choose computer opponent level, reading guesses from a file, and saving result to a file.
 
+![UML](https://github.com/kaminokyoku/Bulls-And-Cows/blob/master/final-uml.jpeg)
+
 
 Task One: Design<br />
 For this assignment, there is very little which is already given to you. Through this
